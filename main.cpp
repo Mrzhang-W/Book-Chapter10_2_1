@@ -14,7 +14,7 @@ int main(int argc, char* argv[]) {
 	getline(cin, s1);
 	cout << "Please enter the second string(s2):";
 	getline(cin, s2);
-	//这个是比较简单的方法
+	//杩欐槸姣旇緝绠�鍗曠殑鏂规硶
 	/*for (int i = 0; i < s1.length(); i++) {
 		if (s2.find(s1[i]) != string::npos) {
 			commons = commons + s1[i];
